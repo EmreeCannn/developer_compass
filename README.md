@@ -74,3 +74,4 @@ export default defineConfig([
 "# developercompass" 
 "# project" 
 "# developer_new_repo" 
+"# developer_compass" 
