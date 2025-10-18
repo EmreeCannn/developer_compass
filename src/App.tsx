@@ -41,8 +41,8 @@ function App() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
-            Get weekly, AI-powered intelligence on your hyper-casual competitors.
-            Our LLM analyzes millions of player comments, so you don't have to.
+            Unlock AI-powered insights for the Creator Economy.
+            Our platform analyzes millions of user comments on trending products, turning market noise into your next big opportunity.
           </p>
 
           <form onSubmit={(e) => handleSubmit(e, email)} className="max-w-md mx-auto">
@@ -84,7 +84,7 @@ function App() {
             <div className="w-16 h-16 mb-6 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center shadow-lg shadow-green-500/50 group-hover:scale-110 transition-transform">
               <Heart className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-green-400">What Players Love</h3>
+            <h3 className="text-2xl font-bold mb-4 text-green-400">What Customers Love</h3>
             <p className="text-gray-300 leading-relaxed">
               Discover the exact features and addictive game mechanics that players praise in top-charting games.
             </p>
@@ -95,7 +95,7 @@ function App() {
             <div className="w-16 h-16 mb-6 rounded-full bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center shadow-lg shadow-red-500/50 group-hover:scale-110 transition-transform">
               <Flame className="w-8 h-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-red-400">What Players Hate</h3>
+            <h3 className="text-2xl font-bold mb-4 text-red-400">What Customers Hate</h3>
             <p className="text-gray-300 leading-relaxed">
               Pinpoint game-killing bugs, frustrating ad strategies, and boring level designs from real player feedback.
             </p>
@@ -129,10 +129,10 @@ function App() {
             <div className="w-20 h-20 mb-4 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center shadow-lg shadow-blue-500/50">
               <Gamepad2 className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2 text-white">Subway Surfers</h3>
-            <p className="text-gray-400 text-sm mb-4">Endless Runner</p>
+            <h3 className="text-xl font-bold mb-2 text-white">Notion SaaS</h3>
+            <p className="text-gray-400 text-sm mb-4">Productivity</p>
             <div className="flex items-center justify-between text-sm">
-              <span className="text-gray-500">24.5K Comments</span>
+              <span className="text-gray-500">8.6K Reviews</span>
               <span className="text-green-400">↑ 12%</span>
             </div>
           </div>
@@ -142,10 +142,10 @@ function App() {
             <div className="w-20 h-20 mb-4 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/50">
               <Gamepad2 className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2 text-white">Candy Crush Saga</h3>
-            <p className="text-gray-400 text-sm mb-4">Match-3 Puzzle</p>
+            <h3 className="text-xl font-bold mb-2 text-white">Strava App</h3>
+            <p className="text-gray-400 text-sm mb-4">Fitness</p>
             <div className="flex items-center justify-between text-sm">
-              <span className="text-gray-500">18.2K Comments</span>
+              <span className="text-gray-500">18.2K Reviews</span>
               <span className="text-red-400">↓ 5%</span>
             </div>
           </div>
@@ -155,10 +155,10 @@ function App() {
             <div className="w-20 h-20 mb-4 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-500 flex items-center justify-center shadow-lg shadow-indigo-500/50">
               <Gamepad2 className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2 text-white">Among Us</h3>
-            <p className="text-gray-400 text-sm mb-4">Social Deduction</p>
+            <h3 className="text-xl font-bold mb-2 text-white">PhotoRoom AI</h3>
+            <p className="text-gray-400 text-sm mb-4">Photo Editor</p>
             <div className="flex items-center justify-between text-sm">
-              <span className="text-gray-500">31.8K Comments</span>
+              <span className="text-gray-500">12.8K Reviews</span>
               <span className="text-green-400">↑ 23%</span>
             </div>
           </div>
@@ -296,11 +296,11 @@ function App() {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="font-bold text-white">u/GameDev_Pro</span>
+                  <span className="font-bold text-white">u/SaaS_Founder_AU</span>
                   <span className="text-gray-500 text-sm">• 2 days ago</span>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  "The level progression in this game is absolutely perfect. Not too easy, not too hard. Keeps me coming back every day!"
+                  "Is anyone else's integration with the new payment API failing? Getting a constant 403 error. Their support docs are outdated. Help!"
                 </p>
                 <div className="flex items-center gap-4 mt-3 text-sm text-gray-500">
                   <span>↑ 342</span>
@@ -345,11 +345,11 @@ function App() {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="font-bold text-white">u/CasualPlayer88</span>
+                  <span className="font-bold text-white">u/Gym_guru</span>
                   <span className="text-gray-500 text-sm">• 1 day ago</span>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  "Anyone else experiencing constant crashes on level 45? Game freezes every single time. Devs please fix!"
+                  "This new fitness app has a killer UI, but the subscription model is confusing. A simple one-time purchase option would get them so many more users."
                 </p>
                 <div className="flex items-center gap-4 mt-3 text-sm text-gray-500">
                   <span>↑ 567</span>
@@ -369,7 +369,7 @@ function App() {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="font-bold text-white">@IndieGameDev_Sarah</span>
+                  <span className="font-bold text-white">@IndieGamer_Fan</span>
                   <span className="text-gray-500 text-sm">• 12h</span>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
@@ -405,7 +405,7 @@ function App() {
               "Developer's Compass saved me 10+ hours of manual research this week alone.
               The 'Market Gaps' report is pure gold."
             </p>
-            <p className="text-purple-400 font-semibold">- Alex R., Indie Game Developer</p>
+            <p className="text-purple-400 font-semibold">- Amelia Wallace, Head of Content @ GrowthSprout</p>
           </div>
 
           {/* Testimonial 2 */}
@@ -414,9 +414,11 @@ function App() {
               <Mail className="w-12 h-12 text-blue-400" />
             </div>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed italic">
-              "The insights on our competitor's ad frequency were a game-changer for our monetization strategy."
+              "We were stuck in 'analysis paralysis' for our next big feature.
+               Developer's Compass crunched thousands of user reviews and pinpointed a key frustration with our competitors.
+               That data gave us the confidence to start building.."
             </p>
-            <p className="text-blue-400 font-semibold">- Sarah P., Product Manager</p>
+            <p className="text-blue-400 font-semibold">- Javier Vargas, Co-founder @ ReplyFlow</p>
           </div>
         </div>
       </section>
